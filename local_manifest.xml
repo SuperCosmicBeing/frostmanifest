@@ -7,7 +7,7 @@
          	fetch="https://github.com/SuperCosmicBeing" />
  	<remote name="frostlab"
 		fetch="https://gitlab.com/FrosT2k5" />
- 	<project path="device/xiaomi/sakura" name="device_xiaomi_sakura" remote="frost" revision="eleven" clone-depth="1" />
+	<project path="device/xiaomi/sakura" name="device_xiaomi_sakura" remote="frost" revision="xtended" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_sleepy" remote="cosmos" revision="dumaloo-release-freq" clone-depth="1" />
 	<project path="vendor/xiaomi" name="vendor_xiaomi_sakura" remote="frostlab" revision="wip" clone-depth="1" />
 </manifest>
