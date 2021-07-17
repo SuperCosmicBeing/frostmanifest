@@ -9,8 +9,11 @@
 		fetch="https://github.com/kdrag0n" />
  	<remote name="frostlab"
 		fetch="https://gitlab.com/FrosT2k5" />
+	<remove-project name="platform_packages_apps_Camera2" />
+	
 	<project path="device/xiaomi/sakura" name="device_xiaomi_sakura" remote="frost" revision="bliss" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_sleepy" remote="cosmos" revision="dumaloo-release-freq" clone-depth="1" />
 	<project path="vendor/xiaomi" name="vendor_xiaomi_sakura" remote="frostlab" revision="wip" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="dragon" revision="master" clone-depth="1" />
+	<project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="frost" revision="lineage-18.1" clone-depth="1" />
 </manifest>
