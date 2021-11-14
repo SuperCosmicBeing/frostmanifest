@@ -12,7 +12,7 @@ git clone https://github.com/SuperCosmicBeing/audio -b caf-msm8996-r audio --dep
 
 cd ..
 rm -rf wlan
-git clone https://github.com/SuperCosmicBeing/hardware_qcom_wlan -b 12-caf wlan
+git clone https://github.com/SuperCosmicBeing/hardware_qcom_wlan -b 12-caf wlan --depth=1
 
 cd ../../..
 
