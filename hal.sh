@@ -14,7 +14,7 @@ cd ..
 rm -rf wlan
 git clone https://github.com/SuperCosmicBeing/hardware_qcom_wlan -b 12-caf wlan --depth=1
 
-cd ../../..
+cd ../../
 
 git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host/linux-x86/clang-proton
 
