@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 git clone https://github.com/FrosT2k5/device_xiaomi_sakura device/xiaomi/sakura/ -b 12
 git clone https://github.com/SuperCosmicBeing/kernel_xiaomi_sleepy kernel/xiaomi/msm8953/ --depth=1
@@ -9,6 +9,10 @@ cd hardware/qcom-caf/msm8996
 git clone https://github.com/SuperCosmicBeing/media -b caf-msm8996-r media --depth=1
 git clone https://github.com/SuperCosmicBeing/display -b caf-msm8996-r display --depth=1
 git clone https://github.com/SuperCosmicBeing/audio -b caf-msm8996-r audio --depth=1
+
+cd ..
+rm -rf wlan
+git clone https://github.com/SuperCosmicBeing/hardware_qcom_wlan -b 12-caf wlan
 
 cd ../../..
 
