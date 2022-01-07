@@ -8,5 +8,5 @@
     <project path="hardware/qcom-caf/msm8996/display" name="display" groups="pdk,qcom,qcom_display" remote="cosmos" revision="caf-msm8996-r" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/media" name="media" groups="pdk,qcom,qcom_media" remote="cosmos" revision="caf-msm8996-r" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/audio" name="audio" groups="qcom,qcom_audio" remote="cosmos" revision="caf-msm8996-r" clone-depth="1" />
-    <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="cosmos" revision="11-caf" clone-depth="1" />
+    <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="cosmos" revision="12-caf" clone-depth="1" />
 </manifest>
